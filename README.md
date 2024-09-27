@@ -61,8 +61,8 @@ This FORTRAN program calculates the number of hydrogen bonds (HB) and computes t
 1. Prepare the input files (`input_HB.dat` and `npt_500fs.xyz`).
 2. Compile and run the program:
    ```
-   gfortran HBcorrelation.f90 -o HBcorrelation
-   ./HBcorrelation
+   gfortran hbond_num_acf.f95 -o hbcorrelation
+   ./hbcorrelation
    ```
 3. The program will output the following files:
    - **npt_sort.xyz**: Contains the positions of oxygen and hydrogen atoms.
@@ -88,4 +88,4 @@ To modify the simulation:
 
 ## Contact
 
-For any issues or questions regarding the program, please contact the author of the code.
+For any issues, please contact via email: shubhadeepnag92@gmail.com.
